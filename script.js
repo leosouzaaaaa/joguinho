@@ -10,14 +10,14 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: 'Destruir qualquer forma de exploração humana.',
-             afirmacao: 'Você será escravo até morrer.',
+             texto: 'VOCÊ PREFERE ACABAR COM O RACISMO.',
+             afirmacao: 'A PESSOA MAIS IMPORTANTE DA SUA VIDA É MORTA NA SUA FRENTE.',
 
         },
 
         {
-            texto: 'Acabar com todas as drogas do mundo.',
-            afirmacao: 'Os usuários de drogas morreram por sua causa.',
+            texto: 'VOCÊ PREFERE SALVAR A VIDA DESSA PESSOA IMPORTANTE.',
+            afirmacao: 'O RACISMO AUMENTA EM 50%.',
 
        }
     ]
@@ -27,14 +27,14 @@ const perguntas = [
         enunciado: 'No âmbito ambiental, você prefere:',
         alternativas: [
         {
-             texto: 'Extinguir a Floresta Amazônica.',
-             afirmacao: 'Os problemas ambientais desapareceram por sua decisão.',
+             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO.',
+             afirmacao: ' VOCÊ PERDE SU CAPACIDADE DE RACIOCINIO.',
 
         },
 
         {
-            texto: 'Acabar com a água do mundo.',
-            afirmacao: 'Parabéns, o ser humano não terá sede.',
+            texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA.',
+            afirmacao: 'A CRIE AMBIENTL AUMENTA NOS PRÓXIMOS 5 ANOS.',
 
        }
     ]
@@ -45,13 +45,12 @@ const perguntas = [
         alternativas: [
         {
              texto: 'Ter internet para sempre.',
-             afirmacao: 'Parabéns, ninguém pode se comunicar nas redes sociais ou qualquer meio de comunicação digital.',
-
+             afirmacao: 'ninguém pode se comunicar com os pais'
         },
 
         {
             texto: 'Criar a cura do Câncer.',
-            afirmacao: 'Parabéns, todos os habitantes do mundo terão tumores com sequelas visuais.',
+            afirmacao: 'todos terem diabetes',
 
        }
     ]
@@ -64,6 +63,10 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPerguntas () {
+    if(atual >= perguntas.length){
+        mostraResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
 
     caixaPerguntas.textContent = perguntaAtual.enunciado;
@@ -88,6 +91,12 @@ function respostaSelecionada(alternativa) {
     atual++;
     mostraPerguntas();
 
+}
+
+function mostraResultado(){
+    caixaPerguntas.textContent = "bom dia queridos amigos..."
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
 }
 
 
