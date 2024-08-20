@@ -50,7 +50,7 @@ const perguntas = [
 
         {
             texto: 'Criar a cura do Câncer.',
-            afirmacao: 'todos terem diabetes',
+            afirmacao: 'todos teram diabetes',
 
        }
     ]
