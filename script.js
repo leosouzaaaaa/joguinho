@@ -10,14 +10,14 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: ' VOCÊ PREFERE AJUDAR UMA CRIANÇA QUE ESTÁ SOFRENDO BULLYING',
-             afirmacao: 'MAS PERDE SUA ENTREVISTA DE EMPREGO',
+             texto: ' VOCÊ PREFERE AJUDAR UMA CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
+             afirmacao: 'MAS PERDE SUA ENTREVISTA DE EMPREGO;',
 
         },
 
         {
-            texto: 'VOCÊ PREFERE IR NA ENTREVISTA DE EMPREGO',
-            afirmacao: 'PORÉM NÃO AJUDA A CRIANÇA QUE ESTÁ SOFRENDO BULLYING',
+            texto: 'VOCÊ PREFERE IR NA ENTREVISTA DE EMPREGO;',
+            afirmacao: 'VOCÊ NÃO AJUDA A CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
 
        }
     ]
@@ -27,14 +27,14 @@ const perguntas = [
         enunciado: 'No âmbito ambiental, você prefere:',
         alternativas: [
         {
-             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO.',
-             afirmacao: ' VOCÊ PERDE SUA CAPACIDADE DE RACIOCINIO.',
+             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO;',
+             afirmacao: ' VOCÊ PERDE SUA CAPACIDADE DE RACIOCINIO;',
 
         },
 
         {
-            texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA.',
-            afirmacao: 'A CRISE AMBIENTAL AUMENTA NOS PRÓXIMOS 5 ANOS.',
+            texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA;',
+            afirmacao: 'A CRISE AMBIENTAL AUMENTA NOS PRÓXIMOS 5 ANOS;',
 
        }
     ]
@@ -45,12 +45,12 @@ const perguntas = [
         alternativas: [
         {
              texto: 'VOCÊ PREFERE TER INTERNET PARA SEMPRE .',
-             afirmacao: 'MAS NÃO PODE COMUNICAR-SE COM SEUS PAIS'
+             afirmacao: 'E NÃO PODE COMUNICAR-SE COM SEUS PAIS.'
         },
 
         {
             texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS.',
-            afirmacao: 'MAS NUNCA TER INTERNET',
+            afirmacao: 'E NUNCA TER INTERNET.',
 
        }
     ]
