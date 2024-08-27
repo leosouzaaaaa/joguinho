@@ -10,14 +10,14 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: 'VOCÊ PREFERE ACABAR COM O RACISMO.',
-             afirmacao: 'A PESSOA MAIS IMPORTANTE DA SUA VIDA É MORTA NA SUA FRENTE.',
+             texto: ' VOCÊ PREFERE AJUDAR UMA CRIANÇA QUE ESTÁ SOFRENDO BULLYING',
+             afirmacao: 'MAS PERDE SUA ENTREVISTA DE EMPREGO',
 
         },
 
         {
-            texto: 'VOCÊ PREFERE SALVAR A VIDA DESSA PESSOA IMPORTANTE.',
-            afirmacao: 'O RACISMO AUMENTA EM 50%.',
+            texto: 'VOCÊ PREFERE IR NA ENTREVISTA DE EMPREGO',
+            afirmacao: 'PORÉM NÃO AJUDA A CRIANÇA QUE ESTÁ SOFRENDO BULLYING',
 
        }
     ]
@@ -28,13 +28,13 @@ const perguntas = [
         alternativas: [
         {
              texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO.',
-             afirmacao: ' VOCÊ PERDE SU CAPACIDADE DE RACIOCINIO.',
+             afirmacao: ' VOCÊ PERDE SUA CAPACIDADE DE RACIOCINIO.',
 
         },
 
         {
             texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA.',
-            afirmacao: 'A CRIE AMBIENTL AUMENTA NOS PRÓXIMOS 5 ANOS.',
+            afirmacao: 'A CRISE AMBIENTAL AUMENTA NOS PRÓXIMOS 5 ANOS.',
 
        }
     ]
@@ -44,13 +44,13 @@ const perguntas = [
         enunciado: 'No âmbito tecnológico, você prefere:',
         alternativas: [
         {
-             texto: 'Ter internet para sempre.',
-             afirmacao: 'ninguém pode se comunicar com os pais'
+             texto: 'VOCÊ PREFERE TER INTERNET PARA SEMPRE .',
+             afirmacao: 'MAS NÃO PODE COMUNICAR-SE COM SEUS PAIS'
         },
 
         {
-            texto: 'Criar a cura do Câncer.',
-            afirmacao: 'todos teram diabetes',
+            texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS.',
+            afirmacao: 'MAS NUNCA TER INTERNET',
 
        }
     ]
@@ -95,7 +95,7 @@ function respostaSelecionada(alternativa) {
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "bom dia queridos amigos..."
+    caixaPerguntas.textContent = "Resultado final do jogo de escolhas:"
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
