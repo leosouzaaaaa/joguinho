@@ -49,8 +49,8 @@ const perguntas = [
         },
 
         {
-            texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS.',
-            afirmacao: 'E NUNCA TER INTERNET.',
+            texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS. ',
+            afirmacao: 'E NUNCA TER INTERNET. ',
 
        }
     ]
