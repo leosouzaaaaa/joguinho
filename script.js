@@ -10,14 +10,14 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: ' VOCÊ PREFERE AJUDAR UMA CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
-             afirmacao: 'MAS PERDE SUA ENTREVISTA DE EMPREGO;',
+             texto: ' VOCÊ AJUDA UMA CRIANÇA QUE ESTÁ SOFRENDO RACISMO; MAS SEU MELHOR AMIGO VIRA RACISTA;',
+             afirmacao: 'PARABÉNS, SEU MELHOR AMIGO SE TORNOU RACISTA, MAS VOCÊ AJUDOU UMA CRIANÇA NEGRA;',
 
         },
 
         {
-            texto: 'VOCÊ PREFERE IR NA ENTREVISTA DE EMPREGO;',
-            afirmacao: 'VOCÊ NÃO AJUDA A CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
+            texto: 'VOCÊ AJUDA UMA PESSOA QUE ESTÁ SOFRENDO HOMOFOBIA, MAS SUA MÃE VIRA HOMOFÓBICA;',
+            afirmacao: 'VOCÊ AJUDA UMA PESSOA QUE ESTÁ SOFRENDO HOMOFOBIA, MAS SUA MÃE VIROU HOMOFÓBICA;',
 
        }
     ]
@@ -27,14 +27,14 @@ const perguntas = [
         enunciado: 'No âmbito ambiental, você prefere:',
         alternativas: [
         {
-             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO;',
-             afirmacao: ' VOCÊ PERDE SUA CAPACIDADE DE RACIOCINIO;',
+             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO, MAS SUA CASA VIRA UM CHIQUEIRO;',
+             afirmacao: ' VOCÊ AJUDOU O MEIO AMBIENTE, MAS SUA CASA ESTÁ O PURO LIXÃO;',
 
         },
 
         {
-            texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA;',
-            afirmacao: 'A CRISE AMBIENTAL AUMENTA NOS PRÓXIMOS 5 ANOS;',
+            texto: 'AJUDAR OS MARES E OCEANOS RETIRANDO A POLUIÇÃO, MAS VOCÊ TERÁ QUE VIVER ISOLADO DA SOCIEDADE ATÉ MORRER;',
+            afirmacao: 'VOCÊ AJUDOU A VIDA MARINHA, MAS VIVERÁ SOZINHO PARA A ETERNIDADE;',
 
        }
     ]
@@ -44,13 +44,13 @@ const perguntas = [
         enunciado: 'No âmbito tecnológico, você prefere:',
         alternativas: [
         {
-             texto: 'VOCÊ PREFERE TER INTERNET PARA SEMPRE .',
-             afirmacao: 'E NÃO PODE COMUNICAR-SE COM SEUS PAIS.'
+             texto: 'VOCÊ TERÁ INTERNET PARA SEMPRE, MAS PERDE A COMUNICAÇÃO COM SEUS PAIS; .',
+             afirmacao: 'VOCÊ TEM INTERNET PARA SEMPRE, MAS NÃO PODE COMUNICAR-SE COM SEUS PAIS.'
         },
 
         {
-            texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS. ',
-            afirmacao: 'E NUNCA TER INTERNET. ',
+            texto: 'VOCÊ CRIA UM PROJETO REVOLUCIONANDO A INTERNET E ENRIQUECE, MAS SUA PESSOA FAVORITA MORRE;. ',
+            afirmacao: 'VOCÊ ENRIQUECE COM SEU PROJETO, MAS INFELIZMENTE SUA PESSOA FAVORITA FFOI COM DEUS. ',
 
        }
     ]
